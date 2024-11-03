@@ -514,11 +514,11 @@ the gene-related data from the RiboParser output to the existing table.
 
 1.  Import the gene message
 
-<img src="./images/snapshot/step1-annotation-message.jpg" width="50%" style="display: block; margin: auto;" />
+<img src="./images/snapshot/step1-annotation-message.jpg" width="70%" style="display: block; margin: auto;" />
 
 1.  Visualizing the distribution of gene lengths
 
-<img src="./images/snapshot/step1-annotation-length.jpg" width="50%" style="display: block; margin: auto;" />
+<img src="./images/snapshot/step1-annotation-length.jpg" width="70%" style="display: block; margin: auto;" />
 
 #### 2.1.3 OrgDb
 
