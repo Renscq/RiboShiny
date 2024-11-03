@@ -2607,6 +2607,8 @@ knitr::include_graphics("./images/snapshot/step31-serp-motif-seqlogo.jpg")
 
 ## 3. Contribution
 
+Thanks to the developers of all the toolkits used in this pipeline.
+
 Feel free to submit any questions or contributions related to the code!
 
 contact: rensc0718@163.com

@@ -2635,12 +2635,15 @@ knitr::include_graphics("./images/snapshot/step31-serp-motif-seqlogo.jpg")
 
 ## 3. 贡献
 
+感谢本流程中使用的所有开源软件的开发者。
+
 欢迎提交问题和贡献代码。
 
+联系 rensc0718@163.com
 
 ## 4. 版权
 
-本项目可免费用于学术研究，不得用于商业用途。
+GPL license
 
 
 
