@@ -1,0 +1,51 @@
+2024-10-25 15:59:00
+
+Calculate the codon occupancy.
+
+Step1: Checking the input Arguments.
+rpf         :  ../step05-merge/sce_rpf_merged.txt
+list        :  None
+output      :  A_site
+site        :  A
+frame       :  all
+min         :  10
+normal      :  False
+tis         :  15
+tts         :  5
+scale       :  minmax
+stop        :  True
+all         :  False
+
+Step2: Import the RPFs file.
+Import the density file wt_ribo_YPD1.
+Import the density file wt_ribo_YPD2.
+Import the density file wt_ribo_YPD3.
+Import the density file ncs2d_ribo_YPD1.
+Import the density file ncs2d_ribo_YPD2.
+Import the density file ncs2d_ribo_YPD3.
+Import the density file elp6d_ribo_YPD1.
+Import the density file elp6d_ribo_YPD2.
+Import the density file elp6d_ribo_YPD3.
+Import the density file ncs2d_elp6d_ribo_YPD1.
+Import the density file ncs2d_elp6d_ribo_YPD2.
+Import the density file ncs2d_elp6d_ribo_YPD3.
+
+Step3: Calculate the codon occupancy.
+Row: 500, NM_001178744.1.
+Row: 1000, NM_001179318.3.
+Row: 1500, NM_001179918.1.
+Row: 2000, NM_001180514.3.
+Row: 2500, NM_001181107.1.
+Row: 3000, NM_001181704.1.
+Row: 3500, NM_001182308.1.
+Row: 4000, NM_001182897.1.
+Row: 4500, NM_001183483.1.
+Row: 5000, NM_001184064.1.
+Row: 5379, YIR043C.
+/home/rensc/software/riboParser/scripts/foo/Occupancy.py:139: FutureWarning: The provided callable <function sum at 0x7efb06ce7e20> is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "sum" instead.
+  codon_density = pd.pivot_table(high_rpf_ave_dst,
+
+Step4: Draw the codon occupancy plot.
+All done.
+
+2024-10-25 15:59:38

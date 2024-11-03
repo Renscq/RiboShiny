@@ -1,0 +1,41 @@
+2024-10-25 16:04:36
+
+Calculate CoV in the CDS region.
+
+Step1: Checking the input Arguments.
+rpf         :  ../step05-merge/sce_rpf_merged.txt
+group       :  ../design.txt
+list        :  None
+output      :  sce
+frame       :  0
+min         :  5
+normal      :  False
+tis         :  15
+tts         :  5
+figure      :  True
+
+Step2: Import the RPFs file.
+Import the density file wt_ribo_YPD1.
+Import the density file wt_ribo_YPD2.
+Import the density file wt_ribo_YPD3.
+Import the density file ncs2d_ribo_YPD1.
+Import the density file ncs2d_ribo_YPD2.
+Import the density file ncs2d_ribo_YPD3.
+Import the density file elp6d_ribo_YPD1.
+Import the density file elp6d_ribo_YPD2.
+Import the density file elp6d_ribo_YPD3.
+Import the density file ncs2d_elp6d_ribo_YPD1.
+Import the density file ncs2d_elp6d_ribo_YPD2.
+Import the density file ncs2d_elp6d_ribo_YPD3.
+
+Step3: Calculate CoV.
+
+Step4: Output CoV.
+
+Step5: Compare CoV of each group.
+Now groups:  ['wt_ribo_YPD' 'ncs2d_ribo_YPD' 'elp6d_ribo_YPD' 'ncs2d_elp6d_ribo_YPD']
+
+Step6: Draw CoV.
+
+All done.
+2024-10-25 16:04:51

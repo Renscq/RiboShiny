@@ -1,0 +1,13 @@
+sample	rpf_count
+WT_mrna_YPD1	8166449
+WT_mrna_YPD2	8575092
+WT_mrna_YPD3	11635472
+elp6d_mrna_YPD1	7079851
+elp6d_mrna_YPD2	18715416
+elp6d_mrna_YPD3	15882153
+ncs2d_elp6d_mrna_YPD1	9755722
+ncs2d_elp6d_mrna_YPD2	10206905
+ncs2d_elp6d_mrna_YPD3	20150268
+ncs2d_mrna_YPD1	8947052
+ncs2d_mrna_YPD2	8486150
+ncs2d_mrna_YPD3	14885661

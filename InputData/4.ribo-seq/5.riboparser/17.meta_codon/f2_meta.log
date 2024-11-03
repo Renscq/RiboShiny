@@ -1,0 +1,51 @@
+2024-10-25 15:59:38
+
+Draw the meta-codon plot.
+
+Step1: Checking the input Arguments.
+list        :  None
+rpf         :  ../step05-merge/sce_rpf_merged.txt
+codon       :  /mnt/t64/rensc/serp/GSE67387/ribo/ribo2/codon.txt
+output      :  f2_meta
+frame       :  2
+around      :  15
+min         :  50
+tis         :  0
+tts         :  0
+normal      :  True
+unique      :  True
+scale       :  False
+smooth      :  None
+thread      :  1
+fig         :  True
+
+Step2: Import the codon list.
+
+Step3: Import the RPFs file.
+Import the density file wt_ribo_YPD1.
+Import the density file wt_ribo_YPD2.
+Import the density file wt_ribo_YPD3.
+Import the density file ncs2d_ribo_YPD1.
+Import the density file ncs2d_ribo_YPD2.
+Import the density file ncs2d_ribo_YPD3.
+Import the density file elp6d_ribo_YPD1.
+Import the density file elp6d_ribo_YPD2.
+Import the density file elp6d_ribo_YPD3.
+Import the density file ncs2d_elp6d_ribo_YPD1.
+Import the density file ncs2d_elp6d_ribo_YPD2.
+Import the density file ncs2d_elp6d_ribo_YPD3.
+
+Step4: Retrieve specific codon density.
+Now is: AAA.
+Now is: CAA.
+Now is: GAA.
+Now is: GCT.
+
+Step5: Output the specific codon meta RPFs density.
+
+Step6: Output the specific codon sequence.
+
+Step7: Draw the specific codon.
+
+All done.
+2024-10-25 16:00:30

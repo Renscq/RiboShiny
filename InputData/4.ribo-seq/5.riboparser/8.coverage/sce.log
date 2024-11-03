@@ -1,0 +1,121 @@
+2024-10-25 15:57:33
+
+Draw the metagene coverage.
+
+Step1: Checking the input Arguments.
+transcript  :  /mnt/t64/database/sce/ncbi/norm/sce.norm.txt
+rpf         :  ../step05-merge/sce_rpf_merged.txt
+output      :  sce
+frame       :  all
+min         :  50
+bin         :  30,100,30
+normal      :  True
+thread      :  1
+outlier     :  True
+set         :  union
+heatmap     :  True
+
+Step2: Import the RPFs file.
+Import the density file wt_ribo_YPD1.
+Import the density file wt_ribo_YPD2.
+Import the density file wt_ribo_YPD3.
+Import the density file ncs2d_ribo_YPD1.
+Import the density file ncs2d_ribo_YPD2.
+Import the density file ncs2d_ribo_YPD3.
+Import the density file elp6d_ribo_YPD1.
+Import the density file elp6d_ribo_YPD2.
+Import the density file elp6d_ribo_YPD3.
+Import the density file ncs2d_elp6d_ribo_YPD1.
+Import the density file ncs2d_elp6d_ribo_YPD2.
+Import the density file ncs2d_elp6d_ribo_YPD3.
+/home/rensc/software/riboParser/scripts/foo/Coverage.py:83: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise in a future error of pandas. Value '[0. 0. 0. ... 0. 0. 0.]' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  self.high_rpf.loc[:, self.sample_name] = self.high_rpf[self.sample_name] * 1e6 / self.total_rpf_num
+/home/rensc/software/riboParser/scripts/foo/Coverage.py:83: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise in a future error of pandas. Value '[0. 0. 0. ... 0. 0. 0.]' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  self.high_rpf.loc[:, self.sample_name] = self.high_rpf[self.sample_name] * 1e6 / self.total_rpf_num
+/home/rensc/software/riboParser/scripts/foo/Coverage.py:83: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise in a future error of pandas. Value '[0. 0. 0. ... 0. 0. 0.]' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  self.high_rpf.loc[:, self.sample_name] = self.high_rpf[self.sample_name] * 1e6 / self.total_rpf_num
+/home/rensc/software/riboParser/scripts/foo/Coverage.py:83: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise in a future error of pandas. Value '[0. 0. 0. ... 0. 0. 0.]' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  self.high_rpf.loc[:, self.sample_name] = self.high_rpf[self.sample_name] * 1e6 / self.total_rpf_num
+/home/rensc/software/riboParser/scripts/foo/Coverage.py:83: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise in a future error of pandas. Value '[0. 0. 0. ... 0. 0. 0.]' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  self.high_rpf.loc[:, self.sample_name] = self.high_rpf[self.sample_name] * 1e6 / self.total_rpf_num
+/home/rensc/software/riboParser/scripts/foo/Coverage.py:83: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise in a future error of pandas. Value '[0. 0. 0. ... 0. 0. 0.]' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  self.high_rpf.loc[:, self.sample_name] = self.high_rpf[self.sample_name] * 1e6 / self.total_rpf_num
+/home/rensc/software/riboParser/scripts/foo/Coverage.py:83: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise in a future error of pandas. Value '[0. 0. 0. ... 0. 0. 0.]' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  self.high_rpf.loc[:, self.sample_name] = self.high_rpf[self.sample_name] * 1e6 / self.total_rpf_num
+/home/rensc/software/riboParser/scripts/foo/Coverage.py:83: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise in a future error of pandas. Value '[0. 0. 0. ... 0. 0. 0.]' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  self.high_rpf.loc[:, self.sample_name] = self.high_rpf[self.sample_name] * 1e6 / self.total_rpf_num
+/home/rensc/software/riboParser/scripts/foo/Coverage.py:83: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise in a future error of pandas. Value '[0. 0. 0. ... 0. 0. 0.]' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  self.high_rpf.loc[:, self.sample_name] = self.high_rpf[self.sample_name] * 1e6 / self.total_rpf_num
+/home/rensc/software/riboParser/scripts/foo/Coverage.py:83: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise in a future error of pandas. Value '[0. 0. 0. ... 0. 0. 0.]' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  self.high_rpf.loc[:, self.sample_name] = self.high_rpf[self.sample_name] * 1e6 / self.total_rpf_num
+/home/rensc/software/riboParser/scripts/foo/Coverage.py:83: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise in a future error of pandas. Value '[0. 0. 0. ... 0. 0. 0.]' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  self.high_rpf.loc[:, self.sample_name] = self.high_rpf[self.sample_name] * 1e6 / self.total_rpf_num
+/home/rensc/software/riboParser/scripts/foo/Coverage.py:83: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise in a future error of pandas. Value '[0. 0. 0. ... 0. 0. 0.]' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  self.high_rpf.loc[:, self.sample_name] = self.high_rpf[self.sample_name] * 1e6 / self.total_rpf_num
+
+Step3: Adjust mRNAs to the same dimension.
+Processing 5-UTR.
+Processing CDS.
+The number of gene with CDS 5023.
+Filter the outliers.
+/home/rensc/software/riboParser/scripts/foo/Coverage.py:154: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  gene_coverage = gene_cover_df_n.groupby('Bins')[self.sample_name].sum() / self.gene_num
+Processing 3-UTR.
+
+Step5: Draw the line plot of metagene coverage.
+Draw wt_ribo_YPD1 line plot.
+Draw wt_ribo_YPD2 line plot.
+Draw wt_ribo_YPD3 line plot.
+Draw ncs2d_ribo_YPD1 line plot.
+Draw ncs2d_ribo_YPD2 line plot.
+Draw ncs2d_ribo_YPD3 line plot.
+Draw elp6d_ribo_YPD1 line plot.
+Draw elp6d_ribo_YPD2 line plot.
+Draw elp6d_ribo_YPD3 line plot.
+Draw ncs2d_elp6d_ribo_YPD1 line plot.
+Draw ncs2d_elp6d_ribo_YPD2 line plot.
+Draw ncs2d_elp6d_ribo_YPD3 line plot.
+
+Step6: Draw the heatmap of metagene coverage.
+Draw wt_ribo_YPD1 heatmap.
+/home/rensc/software/riboParser/scripts/foo/Coverage.py:362: FutureWarning: The default value of observed=False is deprecated and will change to observed=True in a future version of pandas. Specify observed=False to silence this warning and retain the current behavior
+  cds_sp = pd.pivot_table(cds_df.loc[:, ['Gene', "Bins", sp]],
+Draw wt_ribo_YPD2 heatmap.
+/home/rensc/software/riboParser/scripts/foo/Coverage.py:362: FutureWarning: The default value of observed=False is deprecated and will change to observed=True in a future version of pandas. Specify observed=False to silence this warning and retain the current behavior
+  cds_sp = pd.pivot_table(cds_df.loc[:, ['Gene', "Bins", sp]],
+Draw wt_ribo_YPD3 heatmap.
+/home/rensc/software/riboParser/scripts/foo/Coverage.py:362: FutureWarning: The default value of observed=False is deprecated and will change to observed=True in a future version of pandas. Specify observed=False to silence this warning and retain the current behavior
+  cds_sp = pd.pivot_table(cds_df.loc[:, ['Gene', "Bins", sp]],
+Draw ncs2d_ribo_YPD1 heatmap.
+/home/rensc/software/riboParser/scripts/foo/Coverage.py:362: FutureWarning: The default value of observed=False is deprecated and will change to observed=True in a future version of pandas. Specify observed=False to silence this warning and retain the current behavior
+  cds_sp = pd.pivot_table(cds_df.loc[:, ['Gene', "Bins", sp]],
+Draw ncs2d_ribo_YPD2 heatmap.
+/home/rensc/software/riboParser/scripts/foo/Coverage.py:362: FutureWarning: The default value of observed=False is deprecated and will change to observed=True in a future version of pandas. Specify observed=False to silence this warning and retain the current behavior
+  cds_sp = pd.pivot_table(cds_df.loc[:, ['Gene', "Bins", sp]],
+Draw ncs2d_ribo_YPD3 heatmap.
+/home/rensc/software/riboParser/scripts/foo/Coverage.py:362: FutureWarning: The default value of observed=False is deprecated and will change to observed=True in a future version of pandas. Specify observed=False to silence this warning and retain the current behavior
+  cds_sp = pd.pivot_table(cds_df.loc[:, ['Gene', "Bins", sp]],
+Draw elp6d_ribo_YPD1 heatmap.
+/home/rensc/software/riboParser/scripts/foo/Coverage.py:362: FutureWarning: The default value of observed=False is deprecated and will change to observed=True in a future version of pandas. Specify observed=False to silence this warning and retain the current behavior
+  cds_sp = pd.pivot_table(cds_df.loc[:, ['Gene', "Bins", sp]],
+Draw elp6d_ribo_YPD2 heatmap.
+/home/rensc/software/riboParser/scripts/foo/Coverage.py:362: FutureWarning: The default value of observed=False is deprecated and will change to observed=True in a future version of pandas. Specify observed=False to silence this warning and retain the current behavior
+  cds_sp = pd.pivot_table(cds_df.loc[:, ['Gene', "Bins", sp]],
+Draw elp6d_ribo_YPD3 heatmap.
+/home/rensc/software/riboParser/scripts/foo/Coverage.py:362: FutureWarning: The default value of observed=False is deprecated and will change to observed=True in a future version of pandas. Specify observed=False to silence this warning and retain the current behavior
+  cds_sp = pd.pivot_table(cds_df.loc[:, ['Gene', "Bins", sp]],
+Draw ncs2d_elp6d_ribo_YPD1 heatmap.
+/home/rensc/software/riboParser/scripts/foo/Coverage.py:362: FutureWarning: The default value of observed=False is deprecated and will change to observed=True in a future version of pandas. Specify observed=False to silence this warning and retain the current behavior
+  cds_sp = pd.pivot_table(cds_df.loc[:, ['Gene', "Bins", sp]],
+Draw ncs2d_elp6d_ribo_YPD2 heatmap.
+/home/rensc/software/riboParser/scripts/foo/Coverage.py:362: FutureWarning: The default value of observed=False is deprecated and will change to observed=True in a future version of pandas. Specify observed=False to silence this warning and retain the current behavior
+  cds_sp = pd.pivot_table(cds_df.loc[:, ['Gene', "Bins", sp]],
+Draw ncs2d_elp6d_ribo_YPD3 heatmap.
+/home/rensc/software/riboParser/scripts/foo/Coverage.py:362: FutureWarning: The default value of observed=False is deprecated and will change to observed=True in a future version of pandas. Specify observed=False to silence this warning and retain the current behavior
+  cds_sp = pd.pivot_table(cds_df.loc[:, ['Gene', "Bins", sp]],
+
+Step7: Output the metagene coverage.
+
+All done.
+
+2024-10-25 16:00:18

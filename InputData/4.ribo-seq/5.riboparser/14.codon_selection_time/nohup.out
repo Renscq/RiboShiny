@@ -1,0 +1,663 @@
+2024-08-21 16:31:26
+
+Calculate the codon decoding time.
+
+Step1: Checking the input Arguments.
+rpf         :  /mnt/t64/rensc/serp/GSE67387/ribo/ribo/step05-merge/sce_rpf_merged.txt
+rna         :  /mnt/t64/rensc/serp/GSE67387/mrna/mrna/step05-merge/sce_rpf_merged.txt
+list        :  /mnt/t64/database/sce/fungidb/norm/sce.norm.txt
+output      :  A_ncr
+site        :  A
+frame       :  0
+min         :  50
+times       :  10
+tis         :  5
+tts         :  5
+scale       :  minmax
+stop        :  True
+
+Step2: Import the Ribo and mRNA density file.
+Import the density file wt_ribo_YPD1.
+Import the density file wt_ribo_YPD2.
+Import the density file wt_ribo_YPD3.
+Import the density file ncs2d_ribo_YPD1.
+Import the density file ncs2d_ribo_YPD2.
+Import the density file ncs2d_ribo_YPD3.
+Import the density file elp6d_ribo_YPD1.
+Import the density file elp6d_ribo_YPD2.
+Import the density file elp6d_ribo_YPD3.
+Import the density file ncs2d_elp6d_ribo_YPD1.
+Import the density file ncs2d_elp6d_ribo_YPD2.
+Import the density file ncs2d_elp6d_ribo_YPD3.
+
+Import the density file WT_mrna_YPD1.
+Import the density file WT_mrna_YPD2.
+Import the density file WT_mrna_YPD3.
+Import the density file ncs2d_mrna_YPD1.
+Import the density file ncs2d_mrna_YPD2.
+Import the density file ncs2d_mrna_YPD3.
+Import the density file elp6d_mrna_YPD1.
+Import the density file elp6d_mrna_YPD2.
+Import the density file elp6d_mrna_YPD3.
+Import the density file ncs2d_elp6d_mrna_YPD1.
+Import the density file ncs2d_elp6d_mrna_YPD2.
+Import the density file ncs2d_elp6d_mrna_YPD3.
+
+Step3: Calculate the codon selection time.
+
+Calculate the codon selection time for samples: wt_ribo_YPD1 + WT_mrna_YPD1
+The number of gene in the Ribo-seq and RNA-seq data is: 4291
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: wt_ribo_YPD2 + WT_mrna_YPD2
+The number of gene in the Ribo-seq and RNA-seq data is: 4336
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: wt_ribo_YPD3 + WT_mrna_YPD3
+The number of gene in the Ribo-seq and RNA-seq data is: 4224
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: ncs2d_ribo_YPD1 + ncs2d_mrna_YPD1
+The number of gene in the Ribo-seq and RNA-seq data is: 4458
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: ncs2d_ribo_YPD2 + ncs2d_mrna_YPD2
+The number of gene in the Ribo-seq and RNA-seq data is: 4471
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: ncs2d_ribo_YPD3 + ncs2d_mrna_YPD3
+The number of gene in the Ribo-seq and RNA-seq data is: 4211
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: elp6d_ribo_YPD1 + elp6d_mrna_YPD1
+The number of gene in the Ribo-seq and RNA-seq data is: 4279
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: elp6d_ribo_YPD2 + elp6d_mrna_YPD2
+The number of gene in the Ribo-seq and RNA-seq data is: 4416
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: elp6d_ribo_YPD3 + elp6d_mrna_YPD3
+The number of gene in the Ribo-seq and RNA-seq data is: 4377
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: ncs2d_elp6d_ribo_YPD1 + ncs2d_elp6d_mrna_YPD1
+The number of gene in the Ribo-seq and RNA-seq data is: 4643
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: ncs2d_elp6d_ribo_YPD2 + ncs2d_elp6d_mrna_YPD2
+The number of gene in the Ribo-seq and RNA-seq data is: 4477
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: ncs2d_elp6d_ribo_YPD3 + ncs2d_elp6d_mrna_YPD3
+The number of gene in the Ribo-seq and RNA-seq data is: 4837
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Step4: Output the codon selection time.
+
+Step5: Draw the codon decoding time plot.
+All done.
+
+2024-08-21 16:36:35
+2024-08-21 16:36:36
+
+Calculate the codon decoding time.
+
+Step1: Checking the input Arguments.
+rpf         :  /mnt/t64/rensc/serp/GSE67387/ribo/ribo/step05-merge/sce_rpf_merged.txt
+rna         :  /mnt/t64/rensc/serp/GSE67387/mrna/mrna/step05-merge/sce_rpf_merged.txt
+list        :  /mnt/t64/database/sce/fungidb/norm/sce.norm.txt
+output      :  P_ncr
+site        :  P
+frame       :  0
+min         :  50
+times       :  10
+tis         :  5
+tts         :  5
+scale       :  minmax
+stop        :  True
+
+Step2: Import the Ribo and mRNA density file.
+Import the density file wt_ribo_YPD1.
+Import the density file wt_ribo_YPD2.
+Import the density file wt_ribo_YPD3.
+Import the density file ncs2d_ribo_YPD1.
+Import the density file ncs2d_ribo_YPD2.
+Import the density file ncs2d_ribo_YPD3.
+Import the density file elp6d_ribo_YPD1.
+Import the density file elp6d_ribo_YPD2.
+Import the density file elp6d_ribo_YPD3.
+Import the density file ncs2d_elp6d_ribo_YPD1.
+Import the density file ncs2d_elp6d_ribo_YPD2.
+Import the density file ncs2d_elp6d_ribo_YPD3.
+
+Import the density file WT_mrna_YPD1.
+Import the density file WT_mrna_YPD2.
+Import the density file WT_mrna_YPD3.
+Import the density file ncs2d_mrna_YPD1.
+Import the density file ncs2d_mrna_YPD2.
+Import the density file ncs2d_mrna_YPD3.
+Import the density file elp6d_mrna_YPD1.
+Import the density file elp6d_mrna_YPD2.
+Import the density file elp6d_mrna_YPD3.
+Import the density file ncs2d_elp6d_mrna_YPD1.
+Import the density file ncs2d_elp6d_mrna_YPD2.
+Import the density file ncs2d_elp6d_mrna_YPD3.
+
+Step3: Calculate the codon selection time.
+
+Calculate the codon selection time for samples: wt_ribo_YPD1 + WT_mrna_YPD1
+The number of gene in the Ribo-seq and RNA-seq data is: 4291
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: wt_ribo_YPD2 + WT_mrna_YPD2
+The number of gene in the Ribo-seq and RNA-seq data is: 4343
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: wt_ribo_YPD3 + WT_mrna_YPD3
+The number of gene in the Ribo-seq and RNA-seq data is: 4227
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: ncs2d_ribo_YPD1 + ncs2d_mrna_YPD1
+The number of gene in the Ribo-seq and RNA-seq data is: 4463
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: ncs2d_ribo_YPD2 + ncs2d_mrna_YPD2
+The number of gene in the Ribo-seq and RNA-seq data is: 4475
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: ncs2d_ribo_YPD3 + ncs2d_mrna_YPD3
+The number of gene in the Ribo-seq and RNA-seq data is: 4215
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: elp6d_ribo_YPD1 + elp6d_mrna_YPD1
+The number of gene in the Ribo-seq and RNA-seq data is: 4285
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: elp6d_ribo_YPD2 + elp6d_mrna_YPD2
+The number of gene in the Ribo-seq and RNA-seq data is: 4420
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: elp6d_ribo_YPD3 + elp6d_mrna_YPD3
+The number of gene in the Ribo-seq and RNA-seq data is: 4378
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: ncs2d_elp6d_ribo_YPD1 + ncs2d_elp6d_mrna_YPD1
+The number of gene in the Ribo-seq and RNA-seq data is: 4645
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: ncs2d_elp6d_ribo_YPD2 + ncs2d_elp6d_mrna_YPD2
+The number of gene in the Ribo-seq and RNA-seq data is: 4483
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: ncs2d_elp6d_ribo_YPD3 + ncs2d_elp6d_mrna_YPD3
+The number of gene in the Ribo-seq and RNA-seq data is: 4839
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Step4: Output the codon selection time.
+
+Step5: Draw the codon decoding time plot.
+All done.
+
+2024-08-21 16:41:31
+2024-08-21 16:41:31
+
+Calculate the codon decoding time.
+
+Step1: Checking the input Arguments.
+rpf         :  /mnt/t64/rensc/serp/GSE67387/ribo/ribo/step05-merge/sce_rpf_merged.txt
+rna         :  /mnt/t64/rensc/serp/GSE67387/mrna/mrna/step05-merge/sce_rpf_merged.txt
+list        :  /mnt/t64/database/sce/fungidb/norm/sce.norm.txt
+output      :  E_ncr
+site        :  E
+frame       :  0
+min         :  50
+times       :  10
+tis         :  5
+tts         :  5
+scale       :  minmax
+stop        :  True
+
+Step2: Import the Ribo and mRNA density file.
+Import the density file wt_ribo_YPD1.
+Import the density file wt_ribo_YPD2.
+Import the density file wt_ribo_YPD3.
+Import the density file ncs2d_ribo_YPD1.
+Import the density file ncs2d_ribo_YPD2.
+Import the density file ncs2d_ribo_YPD3.
+Import the density file elp6d_ribo_YPD1.
+Import the density file elp6d_ribo_YPD2.
+Import the density file elp6d_ribo_YPD3.
+Import the density file ncs2d_elp6d_ribo_YPD1.
+Import the density file ncs2d_elp6d_ribo_YPD2.
+Import the density file ncs2d_elp6d_ribo_YPD3.
+
+Import the density file WT_mrna_YPD1.
+Import the density file WT_mrna_YPD2.
+Import the density file WT_mrna_YPD3.
+Import the density file ncs2d_mrna_YPD1.
+Import the density file ncs2d_mrna_YPD2.
+Import the density file ncs2d_mrna_YPD3.
+Import the density file elp6d_mrna_YPD1.
+Import the density file elp6d_mrna_YPD2.
+Import the density file elp6d_mrna_YPD3.
+Import the density file ncs2d_elp6d_mrna_YPD1.
+Import the density file ncs2d_elp6d_mrna_YPD2.
+Import the density file ncs2d_elp6d_mrna_YPD3.
+
+Step3: Calculate the codon selection time.
+
+Calculate the codon selection time for samples: wt_ribo_YPD1 + WT_mrna_YPD1
+The number of gene in the Ribo-seq and RNA-seq data is: 4281
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: wt_ribo_YPD2 + WT_mrna_YPD2
+The number of gene in the Ribo-seq and RNA-seq data is: 4338
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: wt_ribo_YPD3 + WT_mrna_YPD3
+The number of gene in the Ribo-seq and RNA-seq data is: 4225
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: ncs2d_ribo_YPD1 + ncs2d_mrna_YPD1
+The number of gene in the Ribo-seq and RNA-seq data is: 4458
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: ncs2d_ribo_YPD2 + ncs2d_mrna_YPD2
+The number of gene in the Ribo-seq and RNA-seq data is: 4472
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: ncs2d_ribo_YPD3 + ncs2d_mrna_YPD3
+The number of gene in the Ribo-seq and RNA-seq data is: 4210
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: elp6d_ribo_YPD1 + elp6d_mrna_YPD1
+The number of gene in the Ribo-seq and RNA-seq data is: 4280
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: elp6d_ribo_YPD2 + elp6d_mrna_YPD2
+The number of gene in the Ribo-seq and RNA-seq data is: 4413
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: elp6d_ribo_YPD3 + elp6d_mrna_YPD3
+The number of gene in the Ribo-seq and RNA-seq data is: 4372
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: ncs2d_elp6d_ribo_YPD1 + ncs2d_elp6d_mrna_YPD1
+The number of gene in the Ribo-seq and RNA-seq data is: 4642
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: ncs2d_elp6d_ribo_YPD2 + ncs2d_elp6d_mrna_YPD2
+The number of gene in the Ribo-seq and RNA-seq data is: 4479
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: ncs2d_elp6d_ribo_YPD3 + ncs2d_elp6d_mrna_YPD3
+The number of gene in the Ribo-seq and RNA-seq data is: 4836
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Step4: Output the codon selection time.
+
+Step5: Draw the codon decoding time plot.
+All done.
+
+2024-08-21 16:46:29

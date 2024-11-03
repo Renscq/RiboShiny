@@ -1,0 +1,59 @@
+2024-10-25 15:59:25
+
+Calculate the relative codon pausing score.
+
+Step1: Checking the input Arguments.
+rpf         :  ../step05-merge/sce_rpf_merged.txt
+list        :  None
+output      :  A_site
+site        :  A
+frame       :  0
+background  :  0
+min         :  10
+tis         :  10
+tts         :  5
+normal      :  False
+scale       :  minmax
+stop        :  True
+figure      :  none
+all         :  False
+
+Step2: Import the RPFs file.
+Import the density file wt_ribo_YPD1.
+Import the density file wt_ribo_YPD2.
+Import the density file wt_ribo_YPD3.
+Import the density file ncs2d_ribo_YPD1.
+Import the density file ncs2d_ribo_YPD2.
+Import the density file ncs2d_ribo_YPD3.
+Import the density file elp6d_ribo_YPD1.
+Import the density file elp6d_ribo_YPD2.
+Import the density file elp6d_ribo_YPD3.
+Import the density file ncs2d_elp6d_ribo_YPD1.
+Import the density file ncs2d_elp6d_ribo_YPD2.
+Import the density file ncs2d_elp6d_ribo_YPD3.
+
+Step3: Calculate the ribosome pausing score.
+Row: 500, NM_001178753.1.
+Row: 1000, NM_001179336.1.
+Row: 1500, NM_001179959.1.
+Row: 2000, NM_001180570.3.
+Row: 2500, NM_001181170.3.
+Row: 3000, NM_001181775.1.
+Row: 3500, NM_001182396.1.
+Row: 4000, NM_001182989.3.
+Row: 4500, NM_001183585.3.
+Row: 5000, NM_001184199.1.
+Row: 5237, YIR043C.
+
+Step4: Output the ribosome pausing score.
+/home/rensc/software/riboParser/scripts/foo/Pausing.py:224: FutureWarning: The provided callable <function sum at 0x7f6c09a64040> is currently using DataFrameGroupBy.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "sum" instead.
+  self.cds_codon_pausing = pd.pivot_table(self.merge_pausing, index=['name', 'codon'],
+/home/rensc/software/riboParser/scripts/foo/Pausing.py:224: FutureWarning: The provided callable <function mean at 0x7f6c09a65120> is currently using DataFrameGroupBy.mean. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "mean" instead.
+  self.cds_codon_pausing = pd.pivot_table(self.merge_pausing, index=['name', 'codon'],
+
+Step5: Draw the codon pausing score.
+
+Step6: Do not draw figures.
+
+All done.
+2024-10-25 16:00:17

@@ -1,0 +1,44 @@
+2024-10-25 15:57:46
+
+Quantify the RPFs in the different region.
+
+Step1: Checking the input Arguments.
+rpf         :  ../step05-merge/sce_rpf_merged.txt
+output      :  sce
+frame       :  all
+tis         :  10
+tts         :  5
+utr5        :  False
+utr3        :  False
+
+Step2: Import the RPFs file.
+Import the density file wt_ribo_YPD1.
+Import the density file wt_ribo_YPD2.
+Import the density file wt_ribo_YPD3.
+Import the density file ncs2d_ribo_YPD1.
+Import the density file ncs2d_ribo_YPD2.
+Import the density file ncs2d_ribo_YPD3.
+Import the density file elp6d_ribo_YPD1.
+Import the density file elp6d_ribo_YPD2.
+Import the density file elp6d_ribo_YPD3.
+Import the density file ncs2d_elp6d_ribo_YPD1.
+Import the density file ncs2d_elp6d_ribo_YPD2.
+Import the density file ncs2d_elp6d_ribo_YPD3.
+
+Step3: Quantify the RPFs in different region.
+Summary RPFs of CDS.
+
+Step4: Draw the RPFs bar plot of different region.
+/home/rensc/software/riboParser/scripts/foo/Quant.py:226: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  rpf_sum = self.merged_rpf.groupby('region')[self.sample_name].apply(sum)
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+
+Step5: Draw the RPFs cumulative plot of gene rpm.
+
+Step6: Draw the RPFs PCA plot of gene rpm.
+
+Step7: Draw the RPFs heatmap of gene rpm.
+
+All done.
+2024-10-25 15:58:08

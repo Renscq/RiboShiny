@@ -1,0 +1,42 @@
+2024-10-26 04:06:42
+
+Calculate the relative codon pausing score.
+
+Step1: Checking the input Arguments.
+rpf         :  ../step05-merge/sce_rpf_merged.txt
+list        :  None
+output      :  wt_vs_ncs2d_P_site
+thread      :  16
+site        :  P
+frame       :  0
+control     :  wt_ribo_YPD1,wt_ribo_YPD2,wt_ribo_YPD3
+treat       :  ncs2d_ribo_YPD1,ncs2d_ribo_YPD2,ncs2d_ribo_YPD3
+normal      :  False
+zero        :  True
+min         :  30
+fdr         :  bhfdr
+value       :  0.05
+tis         :  15
+tts         :  5
+stop        :  False
+scale       :  minmax
+
+Step2: Import the RPFs file.
+Import the density file wt_ribo_YPD1.
+Import the density file wt_ribo_YPD2.
+Import the density file wt_ribo_YPD3.
+Import the density file ncs2d_ribo_YPD1.
+Import the density file ncs2d_ribo_YPD2.
+Import the density file ncs2d_ribo_YPD3.
+Ignore the codon without RPFs coverage.
+
+Step3: Make two dimensional table for fisher exactly test.
+
+Step4: Calculate the odd ratio.
+
+Step5: Output the ribosome pausing odd ratio.
+
+Step6: Draw the ribosome pausing odd ratio.
+
+All done.
+2024-10-26 04:07:12

@@ -1,0 +1,13 @@
+sample	rpf_count
+elp6d_ribo_YPD1	17776058
+elp6d_ribo_YPD2	13714150
+elp6d_ribo_YPD3	13213160
+ncs2d_elp6d_ribo_YPD1	20264672
+ncs2d_elp6d_ribo_YPD2	17765903
+ncs2d_elp6d_ribo_YPD3	25436913
+ncs2d_ribo_YPD1	22706278
+ncs2d_ribo_YPD2	20186414
+ncs2d_ribo_YPD3	10969289
+wt_ribo_YPD1	18670171
+wt_ribo_YPD2	22185597
+wt_ribo_YPD3	11815458

@@ -1,0 +1,38 @@
+2024-10-25 06:37:47
+
+Convert reads to RPFs density.
+
+Step1: Checking the input Arguments.
+
+transcript  :  /mnt/t64/database/sce/ncbi/norm/sce.norm.txt
+sequence    :  /mnt/t64/database/sce/ncbi/norm/sce.norm.rna.fa
+bam         :  ../step01-qc/elp6d_ribo_YPD3.bam
+psite       :  ../step03-offset/elp6d_ribo_YPD3_frame_offset.txt
+output      :  elp6d_ribo_YPD3
+longest     :  True
+min         :  27
+max         :  33
+periodicity :  40.0
+silence     :  True
+thread      :  16
+
+Step2: Import the P-site offset.
+
+The import offset table: 
+{27: [11], 28: [12], 29: [12], 30: [12], 31: [13], 32: [13], 33: [14]}
+Filterd RPFs offset table: 
+{27: [11], 28: [12], 29: [12], 30: [12], 31: [13], 32: [13], 33: [14]}
+
+Step3: Import the transcripts annotation.
+
+Step4: Import the BAM file.
+
+import file: ../step01-qc/elp6d_ribo_YPD3.bam.
+
+Step5: Format the in-frame RPFs density.
+
+Step5: Output the RPFs density.
+
+All done.
+
+2024-10-25 06:38:21

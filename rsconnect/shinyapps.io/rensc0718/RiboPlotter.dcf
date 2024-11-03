@@ -1,0 +1,13 @@
+name: RiboPlotter
+title: RiboPlotter
+username: rensc0718
+account: rensc0718
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11039289
+bundleId: 8202681
+url: https://rensc0718.shinyapps.io/RiboPlotter/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|RiboParser.zip|data|output

@@ -1,0 +1,152 @@
+---
+title: "Untitled"
+format: html
+editor: visual
+jupyter: python3
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{python}
+import numpy as np
+
+a = np.zeros(10)
+
+print(a)
+
+a[[1,2,3]] += 1
+
+print(a)
+```
+
+You can add options to executable code like this
+
+```{python}
+
+map_start = 120
+map_end = 190
+
+p_site_list = np.arange(map_start, map_end, 32)
+
+print(p_site_list)
+```
+
+
+
+
+```{python}
+import pandas as pd
+import numpy as np
+
+data = {'A': [1, 2, 3, 4, 5],
+        'B': ['a', 'b', 'c', 'd', 'e'],
+        'C': ['x', 'y', 'z', 'u', 'v']}
+df = pd.DataFrame(data)
+
+
+random_index = np.random.permutation(df.index)
+
+df = df.iloc[random_index].reset_index(drop=True)
+
+print(df)
+
+
+```
+
+
+
+
+```{R}
+require(ggplot2)
+require(minpack.lm)
+require(RColorBrewer)
+require(tidyverse)
+
+# import the data
+# C:\Users\rensc\Desktop\test\RiboParser\data\cov
+cov_table <- read.table("C:/Users/rensc/Desktop/test/RiboParser/data/cov/ncr_cov_CoV.txt", header = T, sep = "\t")
+
+
+flt_sum_table <- cov_table %>% 
+  dplyr::select(name, contains("_sum")) %>%
+  dplyr::rename_with(~str_remove(., "_sum"), contains("_sum")) %>% 
+  tidyr::pivot_longer(cols = -name, names_to = "Sample", values_to = "Sum") %>%
+  dplyr::group_by(name, Sample) %>% 
+  dplyr::reframe(Sum = mean(Sum)) %>% 
+  dplyr::mutate(log2Sum = log2(Sum))
+
+flt_mean_table <- cov_table %>% 
+  dplyr::select(name, contains("_mean")) %>%
+  dplyr::rename_with(~str_remove(., "_mean"), contains("_mean")) %>% 
+  tidyr::pivot_longer(cols = -name, names_to = "Sample", values_to = "Mean") %>%
+  dplyr::group_by(name, Sample) %>% 
+  dplyr::reframe(Mean = mean(Mean)) %>% 
+  dplyr::mutate(log2Mean = log2(Mean))
+
+flt_cov_table <- cov_table %>% 
+  dplyr::select(name, contains("_CoV")) %>%
+  dplyr::rename_with(~str_remove(., "_CoV"), contains("_CoV")) %>% 
+  tidyr::pivot_longer(cols = -name, names_to = "Sample", values_to = "CoV") %>%
+  dplyr::group_by(name, Sample) %>% 
+  dplyr::reframe(CoV = mean(CoV)) %>% 
+  dplyr::mutate(log2CoV = log2(CoV))
+
+melt_cov_table <- flt_sum_table %>%
+  dplyr::left_join(flt_mean_table, by = c('name', 'Sample')) %>% 
+  dplyr::left_join(flt_cov_table, by = c('name', 'Sample')) %>% 
+  na.omit()
+
+```
+
+
+```{r}
+
+nonlinear_model <- function(mu, alpha, beta) {
+  return(0.5 * log2((beta / mu) + alpha))
+}
+
+ggplot(data = melt_cov_table,
+         mapping = aes(x = log2Mean, y = log2CoV, color = Sample, fill = Sample)) + 
+      geom_point(shape = 21, alpha = 0.2, colour = "white") +
+      geom_smooth(method = "nlsLM", 
+                  formula = y ~ nonlinear_model(2^(x), alpha, beta),
+                  method.args = list(start = c(alpha = 1, beta = 1)), 
+                  se = F, 
+                  alpha = 0.9,
+                  linewidth = 2)
+
+```
+
+
+
+```{r}
+
+melt_cov_table_ave <- melt_cov_table %>% 
+  dplyr::mutate(Group = str_sub(Sample, start = 1, end = 4)) %>% 
+  dplyr::group_by(Group, name) %>%
+  dplyr::reframe(log2Mean = mean(log2Mean), log2CoV = mean(log2CoV))
+
+ggplot(data = melt_cov_table_ave,
+         mapping = aes(x = log2Mean, y = log2CoV, color = Group, fill = Group)) + 
+      geom_point(shape = 21, alpha = 0.2, colour = "white") +
+      geom_smooth(method = "nlsLM", 
+                  formula = y ~ nonlinear_model(2^(x), alpha, beta),
+                  method.args = list(start = c(alpha = 1, beta = 1)), 
+                  se = F, 
+                  alpha = 0.9,
+                  linewidth = 1)
+
+```
+
+
+
+
+
+
+

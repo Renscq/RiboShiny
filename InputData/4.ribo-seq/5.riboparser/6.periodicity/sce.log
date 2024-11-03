@@ -1,0 +1,34 @@
+2024-10-25 15:57:29
+Draw the periodicity plot.
+
+Step1: Checking the input Arguments.
+
+rpf         :  ../step05-merge/sce_rpf_merged.txt
+output      :  sce
+transcript  :  None
+min         :  10
+tis         :  0
+tts         :  0
+Step2: Import the RPFs file.
+
+Import the density file wt_ribo_YPD1.
+Import the density file wt_ribo_YPD2.
+Import the density file wt_ribo_YPD3.
+Import the density file ncs2d_ribo_YPD1.
+Import the density file ncs2d_ribo_YPD2.
+Import the density file ncs2d_ribo_YPD3.
+Import the density file elp6d_ribo_YPD1.
+Import the density file elp6d_ribo_YPD2.
+Import the density file elp6d_ribo_YPD3.
+Import the density file ncs2d_elp6d_ribo_YPD1.
+Import the density file ncs2d_elp6d_ribo_YPD2.
+Import the density file ncs2d_elp6d_ribo_YPD3.
+Step3: Calculate the 3nt periodicity.
+
+Step4: Ouput the 3nt periodicity.
+
+Step5: Draw the 3nt periodicity plot.
+
+All done.
+
+2024-10-25 15:57:49

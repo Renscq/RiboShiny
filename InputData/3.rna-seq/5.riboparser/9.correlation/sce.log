@@ -1,0 +1,50 @@
+2024-08-21 16:28:59
+
+Draw the correlation of samples.
+
+
+Step1: Checking the input Arguments.
+
+rpf         :  ../step05-merge/sce_rpf_merged.txt
+output      :  sce
+
+Step2: Import the RPFs file.
+
+Import the RPFs file WT_mrna_YPD1.
+Import the RPFs file WT_mrna_YPD2.
+Import the RPFs file WT_mrna_YPD3.
+Import the RPFs file ncs2d_mrna_YPD1.
+Import the RPFs file ncs2d_mrna_YPD2.
+Import the RPFs file ncs2d_mrna_YPD3.
+Import the RPFs file elp6d_mrna_YPD1.
+Import the RPFs file elp6d_mrna_YPD2.
+Import the RPFs file elp6d_mrna_YPD3.
+Import the RPFs file ncs2d_elp6d_mrna_YPD1.
+Import the RPFs file ncs2d_elp6d_mrna_YPD2.
+Import the RPFs file ncs2d_elp6d_mrna_YPD3.
+
+Step3: calculate the RPM.
+
+/home/rensc/software/riboParser/bin/rpf_Corr:53: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  ][["name"] + sample_name].groupby("name")[sample_name].apply(sum)
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/bin/rpf_Corr:55: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  ][["name"] + sample_name].groupby("name")[sample_name].apply(sum)
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/bin/rpf_Corr:57: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  ][["name"] + sample_name].groupby("name")[sample_name].apply(sum)
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/bin/rpf_Corr:59: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  ][["name"] + sample_name].groupby("name")[sample_name].apply(sum)
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+
+Step4: Draw the correlation plot.
+
+
+All done.
+
+2024-08-21 16:29:46

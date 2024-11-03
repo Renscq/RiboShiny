@@ -1,0 +1,186 @@
+2024-07-05 17:33:10
+
+Calculate the codon decoding time.
+
+Step1: Checking the input Arguments.
+rpf         :  /mnt/t64/rensc/serp/GSE67387/ribo/ribo/step05-merge/sce_rpf_merged.txt
+rna         :  /mnt/t64/rensc/serp/GSE67387/mrna/mrna/step05-merge/sce_rpf_merged.txt
+list        :  /mnt/t64/database/sce/fungidb/norm/sce.norm.txt
+output      :  A_ncr
+site        :  A
+frame       :  0
+min         :  50
+tis         :  10
+tts         :  5
+scale       :  minmax
+stop        :  True
+
+Step2: Import the gene annotation.
+
+Step3: Import the RPFs file.
+Import the density file wt_ribo_YPD1.
+Import the density file wt_ribo_YPD2.
+Import the density file wt_ribo_YPD3.
+Import the density file ncs2d_ribo_YPD1.
+Import the density file ncs2d_ribo_YPD2.
+Import the density file ncs2d_ribo_YPD3.
+Import the density file elp6d_ribo_YPD1.
+Import the density file elp6d_ribo_YPD2.
+Import the density file elp6d_ribo_YPD3.
+Import the density file ncs2d_elp6d_ribo_YPD1.
+Import the density file ncs2d_elp6d_ribo_YPD2.
+Import the density file ncs2d_elp6d_ribo_YPD3.
+
+Import the density file WT_mrna_YPD1.
+Import the density file WT_mrna_YPD2.
+Import the density file WT_mrna_YPD3.
+Import the density file ncs2d_mrna_YPD1.
+Import the density file ncs2d_mrna_YPD2.
+Import the density file ncs2d_mrna_YPD3.
+Import the density file elp6d_mrna_YPD1.
+Import the density file elp6d_mrna_YPD2.
+Import the density file elp6d_mrna_YPD3.
+Import the density file ncs2d_elp6d_mrna_YPD1.
+Import the density file ncs2d_elp6d_mrna_YPD2.
+Import the density file ncs2d_elp6d_mrna_YPD3.
+
+Step4: Calculate the codon decoding time.
+Row: 500, YCR068W-t26_1.
+Row: 1000, YDR363W-t26_1.
+Row: 1500, YGL071W-t26_1.
+Row: 2000, YHR121W-t26_1.
+Row: 2500, YJR142W-t26_1.
+Row: 3000, YLR240W-t26_1.
+Row: 3500, YMR283C-t26_1.
+Row: 4000, YOR030W-t26_1.
+Row: 4500, YPR026W-t26_1.
+Row: 4630, YPR199C-t26_1.
+
+Step5: Draw the codon decoding time plot.
+All done.
+
+2024-07-05 17:33:54
+2024-07-05 17:33:56
+
+Calculate the codon decoding time.
+
+Step1: Checking the input Arguments.
+rpf         :  /mnt/t64/rensc/serp/GSE67387/ribo/ribo/step05-merge/sce_rpf_merged.txt
+rna         :  /mnt/t64/rensc/serp/GSE67387/mrna/mrna/step05-merge/sce_rpf_merged.txt
+list        :  /mnt/t64/database/sce/fungidb/norm/sce.norm.txt
+output      :  P_ncr
+site        :  P
+frame       :  0
+min         :  50
+tis         :  10
+tts         :  5
+scale       :  minmax
+stop        :  True
+
+Step2: Import the gene annotation.
+
+Step3: Import the RPFs file.
+Import the density file wt_ribo_YPD1.
+Import the density file wt_ribo_YPD2.
+Import the density file wt_ribo_YPD3.
+Import the density file ncs2d_ribo_YPD1.
+Import the density file ncs2d_ribo_YPD2.
+Import the density file ncs2d_ribo_YPD3.
+Import the density file elp6d_ribo_YPD1.
+Import the density file elp6d_ribo_YPD2.
+Import the density file elp6d_ribo_YPD3.
+Import the density file ncs2d_elp6d_ribo_YPD1.
+Import the density file ncs2d_elp6d_ribo_YPD2.
+Import the density file ncs2d_elp6d_ribo_YPD3.
+
+Import the density file WT_mrna_YPD1.
+Import the density file WT_mrna_YPD2.
+Import the density file WT_mrna_YPD3.
+Import the density file ncs2d_mrna_YPD1.
+Import the density file ncs2d_mrna_YPD2.
+Import the density file ncs2d_mrna_YPD3.
+Import the density file elp6d_mrna_YPD1.
+Import the density file elp6d_mrna_YPD2.
+Import the density file elp6d_mrna_YPD3.
+Import the density file ncs2d_elp6d_mrna_YPD1.
+Import the density file ncs2d_elp6d_mrna_YPD2.
+Import the density file ncs2d_elp6d_mrna_YPD3.
+
+Step4: Calculate the codon decoding time.
+Row: 500, YCR068W-t26_1.
+Row: 1000, YDR363W-t26_1.
+Row: 1500, YGL071W-t26_1.
+Row: 2000, YHR121W-t26_1.
+Row: 2500, YJR142W-t26_1.
+Row: 3000, YLR240W-t26_1.
+Row: 3500, YMR283C-t26_1.
+Row: 4000, YOR030W-t26_1.
+Row: 4500, YPR026W-t26_1.
+Row: 4630, YPR199C-t26_1.
+
+Step5: Draw the codon decoding time plot.
+All done.
+
+2024-07-05 17:34:41
+2024-07-05 17:34:42
+
+Calculate the codon decoding time.
+
+Step1: Checking the input Arguments.
+rpf         :  /mnt/t64/rensc/serp/GSE67387/ribo/ribo/step05-merge/sce_rpf_merged.txt
+rna         :  /mnt/t64/rensc/serp/GSE67387/mrna/mrna/step05-merge/sce_rpf_merged.txt
+list        :  /mnt/t64/database/sce/fungidb/norm/sce.norm.txt
+output      :  E_ncr
+site        :  E
+frame       :  0
+min         :  50
+tis         :  10
+tts         :  5
+scale       :  minmax
+stop        :  True
+
+Step2: Import the gene annotation.
+
+Step3: Import the RPFs file.
+Import the density file wt_ribo_YPD1.
+Import the density file wt_ribo_YPD2.
+Import the density file wt_ribo_YPD3.
+Import the density file ncs2d_ribo_YPD1.
+Import the density file ncs2d_ribo_YPD2.
+Import the density file ncs2d_ribo_YPD3.
+Import the density file elp6d_ribo_YPD1.
+Import the density file elp6d_ribo_YPD2.
+Import the density file elp6d_ribo_YPD3.
+Import the density file ncs2d_elp6d_ribo_YPD1.
+Import the density file ncs2d_elp6d_ribo_YPD2.
+Import the density file ncs2d_elp6d_ribo_YPD3.
+
+Import the density file WT_mrna_YPD1.
+Import the density file WT_mrna_YPD2.
+Import the density file WT_mrna_YPD3.
+Import the density file ncs2d_mrna_YPD1.
+Import the density file ncs2d_mrna_YPD2.
+Import the density file ncs2d_mrna_YPD3.
+Import the density file elp6d_mrna_YPD1.
+Import the density file elp6d_mrna_YPD2.
+Import the density file elp6d_mrna_YPD3.
+Import the density file ncs2d_elp6d_mrna_YPD1.
+Import the density file ncs2d_elp6d_mrna_YPD2.
+Import the density file ncs2d_elp6d_mrna_YPD3.
+
+Step4: Calculate the codon decoding time.
+Row: 500, YCR069W-t26_1.
+Row: 1000, YDR365C-t26_1.
+Row: 1500, YGL075C-t26_1.
+Row: 2000, YHR127W-t26_1.
+Row: 2500, YJR147W-t26_1.
+Row: 3000, YLR244C-t26_1.
+Row: 3500, YMR287C-t26_1.
+Row: 4000, YOR036W-t26_1.
+Row: 4500, YPR033C-t26_1.
+Row: 4625, YPR199C-t26_1.
+
+Step5: Draw the codon decoding time plot.
+All done.
+
+2024-07-05 17:35:27

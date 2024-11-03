@@ -1,0 +1,26 @@
+2024-07-01 13:54:49
+
+Merge RPFs files from different samples.
+
+Step1: Checking the input Arguments.
+list        :  ../step04-density/RPFs.file.list
+output      :  mmu
+
+Step2: Import the sample list.
+
+Step3: Merge the RPFs file.
+Import the RPFs file: wt_ribo_YPD1.
+Import the RPFs file: WT_ribo_YPD2.
+Import the RPFs file: WT_ribo_YPD3.
+Import the RPFs file: ncs2d_ribo_YPD1.
+Import the RPFs file: ncs2d_ribo_YPD2.
+Import the RPFs file: ncs2d_ribo_YPD3.
+Import the RPFs file: elp6d_ribo_YPD1.
+Import the RPFs file: elp6d_ribo_YPD2.
+Import the RPFs file: elp6d_ribo_YPD3.
+Import the RPFs file: ncs2d_elp6d_ribo_YPD1.
+Import the RPFs file: ncs2d_elp6d_ribo_YPD2.
+Import the RPFs file: ncs2d_elp6d_ribo_YPD3.
+
+All done.
+2024-07-01 13:54:53

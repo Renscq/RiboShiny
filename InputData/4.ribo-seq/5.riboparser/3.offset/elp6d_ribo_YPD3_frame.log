@@ -1,0 +1,70 @@
+2024-10-25 06:24:48
+Detect the p-site offset.
+
+Step1: Checking the input Arguments.
+
+transcript  :  /mnt/t64/database/sce/ncbi/norm/sce.norm.txt
+bam         :  ../step01-qc/elp6d_ribo_YPD3.bam
+output      :  elp6d_ribo_YPD3
+longest     :  False
+min         :  27
+max         :  33
+exp_peak    :  30
+shift       :  2
+silence     :  True
+detail      :  True
+Step2: Import the transcripts annotation.
+
+Step3: Import the bam file.
+
+import file: ../step01-qc/elp6d_ribo_YPD3.bam.
+
+Step4: Detect the tis offset of sequence profile.
+
+Step5: Detect the frame offset of sequence profile.
+
+/home/rensc/software/riboParser/scripts/foo/Offset_mono.py:541: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  offset_psite = offset_line[[1, 3, 5]]
+/home/rensc/software/riboParser/scripts/foo/Offset_mono.py:542: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  offset_rpfs = offset_line[[2, 4, 6]]
+/home/rensc/software/riboParser/scripts/foo/Offset_mono.py:544: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  offset_index = (offset_psite - offset_line[-4] + 1) % 3
+/home/rensc/software/riboParser/scripts/foo/Offset_mono.py:541: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  offset_psite = offset_line[[1, 3, 5]]
+/home/rensc/software/riboParser/scripts/foo/Offset_mono.py:542: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  offset_rpfs = offset_line[[2, 4, 6]]
+/home/rensc/software/riboParser/scripts/foo/Offset_mono.py:544: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  offset_index = (offset_psite - offset_line[-4] + 1) % 3
+/home/rensc/software/riboParser/scripts/foo/Offset_mono.py:541: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  offset_psite = offset_line[[1, 3, 5]]
+/home/rensc/software/riboParser/scripts/foo/Offset_mono.py:542: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  offset_rpfs = offset_line[[2, 4, 6]]
+/home/rensc/software/riboParser/scripts/foo/Offset_mono.py:544: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  offset_index = (offset_psite - offset_line[-4] + 1) % 3
+/home/rensc/software/riboParser/scripts/foo/Offset_mono.py:541: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  offset_psite = offset_line[[1, 3, 5]]
+/home/rensc/software/riboParser/scripts/foo/Offset_mono.py:542: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  offset_rpfs = offset_line[[2, 4, 6]]
+/home/rensc/software/riboParser/scripts/foo/Offset_mono.py:544: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  offset_index = (offset_psite - offset_line[-4] + 1) % 3
+/home/rensc/software/riboParser/scripts/foo/Offset_mono.py:541: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  offset_psite = offset_line[[1, 3, 5]]
+/home/rensc/software/riboParser/scripts/foo/Offset_mono.py:542: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  offset_rpfs = offset_line[[2, 4, 6]]
+/home/rensc/software/riboParser/scripts/foo/Offset_mono.py:544: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  offset_index = (offset_psite - offset_line[-4] + 1) % 3
+/home/rensc/software/riboParser/scripts/foo/Offset_mono.py:541: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  offset_psite = offset_line[[1, 3, 5]]
+/home/rensc/software/riboParser/scripts/foo/Offset_mono.py:542: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  offset_rpfs = offset_line[[2, 4, 6]]
+/home/rensc/software/riboParser/scripts/foo/Offset_mono.py:544: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  offset_index = (offset_psite - offset_line[-4] + 1) % 3
+/home/rensc/software/riboParser/scripts/foo/Offset_mono.py:541: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  offset_psite = offset_line[[1, 3, 5]]
+/home/rensc/software/riboParser/scripts/foo/Offset_mono.py:542: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  offset_rpfs = offset_line[[2, 4, 6]]
+/home/rensc/software/riboParser/scripts/foo/Offset_mono.py:544: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  offset_index = (offset_psite - offset_line[-4] + 1) % 3
+2024-10-25 06:25:53
+All done.
+
