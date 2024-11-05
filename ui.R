@@ -186,7 +186,7 @@ dashboardPage(
   
   ############################ dashboardHeader ############################
   
-  dashboardHeader(title = "RiboShiny (v1.0)",
+  dashboardHeader(title = "RiboShiny (v0.1.0)",
                   titleWidth = 300,
                   ## set the message menu ############################
                   dropdownMenu(type = "messages",
