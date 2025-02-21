@@ -1,0 +1,33 @@
+
+Detect the digestion sites.
+
+
+Step1: Checking the input Arguments.
+
+transcript  :  ../../../1.reference/norm/gene.norm.txt
+sequence    :  ../../../1.reference/norm/gene.norm.rna.fa
+bam         :  ../01.qc/SRR1944928.bam
+output      :  SRR1944928
+longest     :  False
+scale       :  True
+min         :  27
+max         :  33
+
+Step2: Import the annotation of transcripts.
+
+
+Step3: Detect the digestion sites.
+
+
+Step4: Output the digestion sites.
+
+
+Step5: Draw the heatmap of digestion sites.
+
+
+Step6: Draw the seq logo of digestion sites.
+
+
+All done.
+
+2025-02-19 16:31:13

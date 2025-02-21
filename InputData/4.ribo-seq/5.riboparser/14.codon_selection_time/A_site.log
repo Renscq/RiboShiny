@@ -1,0 +1,125 @@
+2025-02-19 18:43:22
+
+Calculate the codon decoding time.
+
+Step1: Checking the input Arguments.
+rpf         :  ../05.merge/RIBO_merged.txt
+rna         :  ../../../3.rna-seq/5.riboparser/05.merge/RNA_merged.txt
+list        :  ../../../1.reference/norm/gene.norm.txt
+output      :  A_site
+site        :  A
+frame       :  0
+min         :  50
+times       :  10
+tis         :  15
+tts         :  5
+scale       :  minmax
+stop        :  True
+
+Step2: Import the Ribo and mRNA density file.
+Import the density file SRR1944912.
+Import the density file SRR1944913.
+Import the density file SRR1944914.
+Import the density file SRR1944915.
+Import the density file SRR1944916.
+Import the density file SRR1944917.
+
+Import the density file SRR1944924.
+Import the density file SRR1944925.
+Import the density file SRR1944926.
+Import the density file SRR1944927.
+Import the density file SRR1944928.
+Import the density file SRR1944929.
+
+Step3: Calculate the codon selection time.
+
+Calculate the codon selection time for samples: SRR1944912 + SRR1944924
+The number of gene in the Ribo-seq and RNA-seq data is: 4253
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: SRR1944913 + SRR1944925
+The number of gene in the Ribo-seq and RNA-seq data is: 4260
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: SRR1944914 + SRR1944926
+The number of gene in the Ribo-seq and RNA-seq data is: 4171
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: SRR1944915 + SRR1944927
+The number of gene in the Ribo-seq and RNA-seq data is: 4374
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: SRR1944916 + SRR1944928
+The number of gene in the Ribo-seq and RNA-seq data is: 4410
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Calculate the codon selection time for samples: SRR1944917 + SRR1944929
+The number of gene in the Ribo-seq and RNA-seq data is: 4158
+Calculate the codon selection time iterative.
+Times of iteration: 1
+Times of iteration: 2
+Times of iteration: 3
+Times of iteration: 4
+Times of iteration: 5
+Times of iteration: 6
+Times of iteration: 7
+Times of iteration: 8
+Times of iteration: 9
+Times of iteration: 10
+
+Step4: Output the codon selection time.
+
+Step5: Draw the codon decoding time plot.
+All done.
+
+2025-02-19 18:45:39

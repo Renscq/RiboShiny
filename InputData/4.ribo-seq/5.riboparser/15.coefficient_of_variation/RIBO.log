@@ -1,0 +1,35 @@
+2025-02-19 18:45:40
+
+Calculate CoV in the CDS region.
+
+Step1: Checking the input Arguments.
+rpf         :  ../05.merge/RIBO_merged.txt
+group       :  ../../../design.txt
+list        :  ../../../1.reference/norm/gene.norm.txt
+output      :  RIBO
+frame       :  0
+min         :  50
+normal      :  False
+tis         :  15
+tts         :  5
+figure      :  True
+
+Step2: Import the RPFs file.
+Import the density file SRR1944912.
+Import the density file SRR1944913.
+Import the density file SRR1944914.
+Import the density file SRR1944915.
+Import the density file SRR1944916.
+Import the density file SRR1944917.
+
+Step3: Calculate CoV.
+
+Step4: Output CoV.
+
+Step5: Compare CoV of each group.
+Now groups:  ['WT_ribo_YPD' 'ncs2d_ribo_YPD']
+
+Step6: Draw CoV.
+
+All done.
+2025-02-19 18:45:47

@@ -1,0 +1,42 @@
+2025-02-19 18:36:37
+
+Calculate the codon occupancy.
+
+Step1: Checking the input Arguments.
+rpf         :  ../05.merge/RIBO_merged.txt
+list        :  ../../../1.reference/norm/gene.norm.txt
+output      :  A_site
+site        :  A
+frame       :  0
+min         :  50
+normal      :  False
+tis         :  15
+tts         :  5
+scale       :  minmax
+stop        :  True
+all         :  False
+
+Step2: Import the RPFs file.
+Import the density file SRR1944912.
+Import the density file SRR1944913.
+Import the density file SRR1944914.
+Import the density file SRR1944915.
+Import the density file SRR1944916.
+Import the density file SRR1944917.
+
+Step3: Calculate the codon occupancy.
+Row: 500, NM_001178824.3.
+Row: 1000, NM_001179495.1.
+Row: 1500, NM_001180196.2.
+Row: 2000, NM_001180858.1.
+Row: 2500, NM_001181545.2.
+Row: 3000, NM_001182260.1.
+Row: 3500, NM_001182937.3.
+Row: 4000, NM_001183613.1.
+Row: 4500, NM_001184310.1.
+Row: 4585, YIR043C.
+
+Step4: Draw the codon occupancy plot.
+All done.
+
+2025-02-19 18:36:59

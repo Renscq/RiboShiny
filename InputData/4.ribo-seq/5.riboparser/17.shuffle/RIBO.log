@@ -1,0 +1,85 @@
+2025-02-19 21:14:01
+Shuffle the RPFs data.
+
+Step1: Checking the input Arguments.
+
+rpf         :  ../05.merge/RIBO_merged.txt
+output      :  RIBO
+list        :  ../../../1.reference/norm/gene.norm.txt
+seed        :  0
+individual  :  True
+Step2: Import the RPFs.
+
+Import the density file SRR1944912.
+Import the density file SRR1944913.
+Import the density file SRR1944914.
+Import the density file SRR1944915.
+Import the density file SRR1944916.
+Import the density file SRR1944917.
+Step3: Shuffle the RPFs table.
+
+Processing 100 genes.
+Processing 200 genes.
+Processing 300 genes.
+Processing 400 genes.
+Processing 500 genes.
+Processing 600 genes.
+Processing 700 genes.
+Processing 800 genes.
+Processing 900 genes.
+Processing 1000 genes.
+Processing 1100 genes.
+Processing 1200 genes.
+Processing 1300 genes.
+Processing 1400 genes.
+Processing 1500 genes.
+Processing 1600 genes.
+Processing 1700 genes.
+Processing 1800 genes.
+Processing 1900 genes.
+Processing 2000 genes.
+Processing 2100 genes.
+Processing 2200 genes.
+Processing 2300 genes.
+Processing 2400 genes.
+Processing 2500 genes.
+Processing 2600 genes.
+Processing 2700 genes.
+Processing 2800 genes.
+Processing 2900 genes.
+Processing 3000 genes.
+Processing 3100 genes.
+Processing 3200 genes.
+Processing 3300 genes.
+Processing 3400 genes.
+Processing 3500 genes.
+Processing 3600 genes.
+Processing 3700 genes.
+Processing 3800 genes.
+Processing 3900 genes.
+Processing 4000 genes.
+Processing 4100 genes.
+Processing 4200 genes.
+Processing 4300 genes.
+Processing 4400 genes.
+Processing 4500 genes.
+Processing 4600 genes.
+Processing 4700 genes.
+Processing 4800 genes.
+Processing 4900 genes.
+Processing 5000 genes.
+Processing 5100 genes.
+Processing 5200 genes.
+Processing 5300 genes.
+Processing 5400 genes.
+Processing 5500 genes.
+Processing 5600 genes.
+Processing 5700 genes.
+Processing 5800 genes.
+Processing 5900 genes.
+Processing 6000 genes.
+Processing 6027 genes.
+Step4: Output the RPFs table.
+
+2025-02-19 21:15:45
+All done.

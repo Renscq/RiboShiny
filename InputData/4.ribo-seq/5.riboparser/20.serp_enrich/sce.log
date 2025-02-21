@@ -1,0 +1,385 @@
+2024-08-28 21:42:48
+
+Draw the metaplot.
+
+Step1: Checking the input Arguments.
+
+transcript  :  /mnt/t64/database/sce/fungidb/norm/sce.norm.txt
+rpf         :  ../step05-merge/sce_rpf_merged.txt
+output      :  sce
+min         :  50
+utr5        :  10
+cds         :  500
+utr3        :  10
+normal      :  False
+mode        :  bar
+
+Step2: Import the RPFs file.
+
+Import the RPFs file wt_1.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file wt_2.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file wt_ssb1_flag_1.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file wt_ssb1_flag_2.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file wt_ssb1_mock_1.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file wt_ssb1_mock_2.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file wt_ssb2_flag_1.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file wt_ssb2_flag_2.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file wt_ssb2_mock_1.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file wt_ssb2_mock_2.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file ssb1d_ssb2_flag_high_1.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file ssb1d_ssb2_flag_high_2.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file ssb1d_ssb2_flag_low_1.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file ssb1d_ssb2_flag_low_2.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file ssb1d_ssb2_mock_1.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file ssb1d_ssb2_mock_2.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file ssb1d_ssb2d_mock_1.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file ssb1d_ssb2d_mock_2.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file ssb2d_ssb1_flag_high_1.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file ssb2d_ssb1_flag_high_2.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file ssb2d_ssb1_flag_low_1.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file ssb2d_ssb1_flag_low_2.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file ssb2d_ssb1_mock_1.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file ssb2d_ssb1_mock_2.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file nacd_ssb1_flag_1.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file nacd_ssb1_flag_2.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file nacd_ssb1_mock_1.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file nacd_ssb1_mock_2.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file nacd_ssb2_flag_1.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file nacd_ssb2_flag_2.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file nacd_ssb2_mock_1.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file nacd_ssb2_mock_2.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file racd_ssb1_flag_1.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file racd_ssb1_flag_2.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file racd_ssb1_mock_1.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file racd_ssb1_mock_2.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file racd_ssb2_flag_1.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file racd_ssb2_flag_2.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file racd_ssb2_mock_1.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+Import the RPFs file racd_ssb2_mock_2.
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:170: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tis_meta = tis_rpf.groupby("from_tis")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+/home/rensc/software/riboParser/scripts/foo/Metaplot.py:171: FutureWarning: The provided callable <built-in function sum> is currently using np.sum. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string np.sum instead.
+  self.tts_meta = tts_rpf.groupby("from_tts")[now_sp_index].apply(sum).div(len(self.high_gene)).reset_index()
+/home/rensc/.conda/envs/ribo/lib/python3.12/site-packages/numpy/core/fromnumeric.py:86: FutureWarning: The behavior of DataFrame.sum with axis=None is deprecated, in a future version this will reduce over both axes and return a scalar. To retain the old behavior, pass axis=0 (or do not pass axis)
+  return reduction(axis=axis, out=out, **passkwargs)
+
+Step3: Draw the metaplot.
+
+
+All done.
+
+2024-08-28 21:47:53

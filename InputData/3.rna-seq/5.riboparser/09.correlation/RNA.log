@@ -1,0 +1,28 @@
+2025-02-19 16:42:06
+
+Draw the correlation of samples.
+
+
+Step1: Checking the input Arguments.
+
+rpf         :  ../05.merge/RNA_merged.txt
+output      :  RNA
+
+Step2: Import the RPFs file.
+
+Import the RPFs file SRR1944924.
+Import the RPFs file SRR1944925.
+Import the RPFs file SRR1944926.
+Import the RPFs file SRR1944927.
+Import the RPFs file SRR1944928.
+Import the RPFs file SRR1944929.
+
+Step3: calculate the RPM.
+
+
+Step4: Draw the correlation plot.
+
+
+All done.
+
+2025-02-19 16:42:31

@@ -1,0 +1,34 @@
+2025-02-19 18:33:57
+
+Quantify the RPFs in the different region.
+
+Step1: Checking the input Arguments.
+rpf         :  ../05.merge/RIBO_merged.txt
+output      :  RIBO
+frame       :  all
+tis         :  15
+tts         :  5
+utr5        :  False
+utr3        :  False
+
+Step2: Import the RPFs file.
+Import the density file SRR1944912.
+Import the density file SRR1944913.
+Import the density file SRR1944914.
+Import the density file SRR1944915.
+Import the density file SRR1944916.
+Import the density file SRR1944917.
+
+Step3: Quantify the RPFs in different region.
+Summary RPFs of CDS.
+
+Step4: Draw the RPFs bar plot of different region.
+
+Step5: Draw the RPFs cumulative plot of gene rpm.
+
+Step6: Draw the RPFs PCA plot of gene rpm.
+
+Step7: Draw the RPFs heatmap of gene rpm.
+
+All done.
+2025-02-19 18:34:12

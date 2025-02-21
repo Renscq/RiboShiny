@@ -1,0 +1,28 @@
+2025-02-19 18:29:45
+Draw the periodicity plot.
+
+Step1: Checking the input Arguments.
+
+rpf         :  ../05.merge/RIBO_merged.txt
+output      :  RIBO
+transcript  :  None
+min         :  50
+tis         :  15
+tts         :  5
+Step2: Import the RPFs file.
+
+Import the density file SRR1944912.
+Import the density file SRR1944913.
+Import the density file SRR1944914.
+Import the density file SRR1944915.
+Import the density file SRR1944916.
+Import the density file SRR1944917.
+Step3: Calculate the 3nt periodicity.
+
+Step4: Ouput the 3nt periodicity.
+
+Step5: Draw the 3nt periodicity plot.
+
+All done.
+
+2025-02-19 18:29:51

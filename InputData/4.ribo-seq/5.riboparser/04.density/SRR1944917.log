@@ -1,0 +1,38 @@
+2025-02-19 18:29:12
+
+Convert reads to RPFs density.
+
+Step1: Checking the input Arguments.
+
+transcript  :  ../../../1.reference/norm/gene.norm.txt
+sequence    :  ../../../1.reference/norm/gene.norm.rna.fa
+bam         :  ../01.qc/SRR1944917.bam
+psite       :  ../03.offset/SRR1944917_SSCBM_offset.txt
+output      :  SRR1944917
+longest     :  True
+min         :  25
+max         :  33
+periodicity :  40.0
+silence     :  True
+thread      :  12
+
+Step2: Import the P-site offset.
+
+The import offset table: 
+{25: [7], 26: [8], 27: [9], 28: [9], 29: [12], 30: [12], 31: [13], 32: [13], 33: [14]}
+Filterd RPFs offset table: 
+{25: [7], 27: [9], 28: [9], 29: [12], 30: [12], 31: [13], 32: [13], 33: [14]}
+
+Step3: Import the transcripts annotation.
+
+Step4: Import the BAM file.
+
+import file: ../01.qc/SRR1944917.bam.
+
+Step5: Format the in-frame RPFs density.
+
+Step5: Output the RPFs density.
+
+All done.
+
+2025-02-19 18:29:40

@@ -1,0 +1,2 @@
+	t_statistic	t_p_value	ks_statistic	ks_p_value
+WT_ribo_YPD_ncs2d_ribo_YPD	10.211089130139351	2.387117972146777e-24	0.0990185387131952	5.593518194398612e-20

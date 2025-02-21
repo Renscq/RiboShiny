@@ -1,0 +1,37 @@
+2025-02-19 16:08:12
+Check the RPFs mapping condition.
+
+Step1: Checking the input Arguments.
+
+transcript  :  ../../../1.reference/norm/gene.norm.txt
+bam         :  ../../3.star/SRR1944925Aligned.toTranscriptome.out.bam
+output      :  SRR1944925
+thread      :  12
+tag         :  0
+align       :  star
+reverse     :  False
+longest     :  False
+saturation  :  True
+Step2: Import the transcripts annotation.
+
+Step3: Import the bam file.
+
+import file: ../../3.star/SRR1944925Aligned.toTranscriptome.out.bam.
+
+index file: ../../3.star/SRR1944925Aligned.toTranscriptome.out.bam.bai doesn't exist, create the index file.
+
+Step4: Sort and index the bam file.
+
+Step5: Detect the type of sequence profile.
+
+Warning! SRR1944925.temp.sorted.bam doesn't fit the empirical length distribution.!
+
+ 
+            Monosome RPFs peak length is usually ~ 30 nt.
+            Please check the files and run the detect_offset.py with specified peak_length!
+Step6: Summary the length distribution of reads aligned to mRNA.
+
+Step7: Check the RPFs saturation.
+
+All done.
+2025-02-19 16:09:43

@@ -1,0 +1,31 @@
+2025-02-19 16:38:27
+
+Draw the metaplot.
+
+Step1: Checking the input Arguments.
+
+transcript  :  ../../../1.reference/norm/gene.norm.txt
+rpf         :  ../05.merge/RNA_merged.txt
+output      :  RNA
+min         :  50
+utr5        :  20
+cds         :  50
+utr3        :  20
+normal      :  False
+mode        :  bar
+
+Step2: Import the RPFs file.
+
+Import the RPFs file SRR1944924.
+Import the RPFs file SRR1944925.
+Import the RPFs file SRR1944926.
+Import the RPFs file SRR1944927.
+Import the RPFs file SRR1944928.
+Import the RPFs file SRR1944929.
+
+Step3: Draw the metaplot.
+
+
+All done.
+
+2025-02-19 16:38:52

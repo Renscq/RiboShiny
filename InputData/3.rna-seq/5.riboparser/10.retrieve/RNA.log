@@ -1,0 +1,79 @@
+2025-02-20 21:08:21
+Retrieve the RPFs with gene list.
+
+Step1: Checking the input Arguments.
+
+usage: rpf_Retrieve [-h] -r RPF [-o OUTPUT] [-l LIST] [-m MIN] [-n] [-f] [-s]
+rpf_Retrieve: error: the following arguments are required: -r
+2025-02-20 21:08:48
+Retrieve the RPFs with gene list.
+
+Step1: Checking the input Arguments.
+
+usage: rpf_Retrieve [-h] -r RPF [-o OUTPUT] [-l LIST] [-m MIN] [-n] [-f] [-s]
+rpf_Retrieve: error: unrecognized arguments:  -l ../../../1.reference/norm/gene.norm.txt  -m 0  -f  -n  -o RNA
+2025-02-20 21:09:17
+Retrieve the RPFs with gene list.
+
+Step1: Checking the input Arguments.
+
+rpf         :  ./RNA_merged.txt
+output      :  RNA
+list        :  ../../../1.reference/norm/gene.norm.txt
+min         :  0
+normal      :  True
+format      :  True
+split       :  False
+Step2: Retrieve the gene RPFs.
+
+Traceback (most recent call last):
+  File "/mnt/t64/software/mambaforge/envs/ribo/bin/rpf_Retrieve", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/mnt/t64/software/mambaforge/envs/ribo/lib/python3.12/site-packages/utils/rpf_Retrieve.py", line 22, in main
+    rpfs.retrieve_rpf()
+  File "/mnt/t64/software/mambaforge/envs/ribo/lib/python3.12/site-packages/utils/ribo/Retrieve.py", line 62, in retrieve_rpf
+    rpf_results = RPFs.import_rpf(rpf_file=self.rpf,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/t64/software/mambaforge/envs/ribo/lib/python3.12/site-packages/utils/ribo/RPFs.py", line 240, in import_rpf
+    raw_rpf = read_rpf_file(rpf_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/t64/software/mambaforge/envs/ribo/lib/python3.12/site-packages/utils/ribo/RPFs.py", line 19, in read_rpf_file
+    raw_rpf = raw_rpf.with_columns(raw_rpf['codon'].str.to_uppercase())
+                                   ~~~~~~~^^^^^^^^^
+  File "/mnt/t64/software/mambaforge/envs/ribo/lib/python3.12/site-packages/polars/dataframe/frame.py", line 1107, in __getitem__
+    return get_df_item_by_key(self, key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/t64/software/mambaforge/envs/ribo/lib/python3.12/site-packages/polars/_utils/getitem.py", line 152, in get_df_item_by_key
+    return df.get_column(key)
+           ^^^^^^^^^^^^^^^^^^
+  File "/mnt/t64/software/mambaforge/envs/ribo/lib/python3.12/site-packages/polars/dataframe/frame.py", line 7357, in get_column
+    return wrap_s(self._df.get_column(name))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+polars.exceptions.ColumnNotFoundError: codon
+2025-02-20 21:10:12
+Retrieve the RPFs with gene list.
+
+Step1: Checking the input Arguments.
+
+rpf         :  ./RNA_merged.txt
+output      :  RNA
+list        :  ../../../1.reference/norm/gene.norm.txt
+min         :  0
+normal      :  True
+format      :  True
+split       :  False
+Step2: Retrieve the gene RPFs.
+
+Import the density file SRR1944924.
+Import the density file SRR1944925.
+Import the density file SRR1944926.
+Import the density file SRR1944927.
+Import the density file SRR1944928.
+Import the density file SRR1944929.
+Step3: Format the RPFs table.
+
+Step4: Output the RPFs table.
+
+All done.
+2025-02-20 21:10:13

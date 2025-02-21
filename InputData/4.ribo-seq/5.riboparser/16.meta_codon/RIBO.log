@@ -1,0 +1,51 @@
+2025-02-19 18:45:49
+
+Draw the meta-codon plot.
+
+Step1: Checking the input Arguments.
+list        :  None
+rpf         :  ../05.merge/RIBO_merged.txt
+codon       :  ../../../codon_list.txt
+output      :  RIBO
+frame       :  0
+around      :  15
+min         :  50
+tis         :  0
+tts         :  0
+normal      :  True
+unique      :  True
+scale       :  False
+smooth      :  None
+thread      :  1
+fig         :  False
+
+Step2: Import the codon list.
+
+Step3: Import the RPFs file.
+Import the density file SRR1944912.
+Import the density file SRR1944913.
+Import the density file SRR1944914.
+Import the density file SRR1944915.
+Import the density file SRR1944916.
+Import the density file SRR1944917.
+
+Step4: Retrieve specific codon density.
+Now is: AAA.
+Now is: AAC.
+Now is: AAG.
+Now is: AAT.
+Now is: AAGAAG.
+Now is: AAGAAG.
+Now is: ATGATG.
+Now is: ATGATG.
+Now is: CCCGGG.
+Now is: CCCGGG.
+
+Step5: Output the specific codon meta RPFs density.
+
+Step6: Output the specific codon sequence.
+
+Step7: Draw the specific codon.
+
+All done.
+2025-02-19 18:46:40

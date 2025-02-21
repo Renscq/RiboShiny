@@ -1,0 +1,49 @@
+2025-02-19 18:38:06
+
+Calculate the codon decoding time.
+
+Step1: Checking the input Arguments.
+rpf         :  ../05.merge/RIBO_merged.txt
+rna         :  ../../../3.rna-seq/5.riboparser/05.merge/RNA_merged.txt
+list        :  ../../../1.reference/norm/gene.norm.txt
+output      :  A_site
+site        :  A
+frame       :  0
+min         :  50
+tis         :  15
+tts         :  5
+scale       :  minmax
+stop        :  True
+
+Step2: Import the gene annotation.
+
+Step3: Import the RPFs file.
+Import the density file SRR1944912.
+Import the density file SRR1944913.
+Import the density file SRR1944914.
+Import the density file SRR1944915.
+Import the density file SRR1944916.
+Import the density file SRR1944917.
+
+Import the density file SRR1944924.
+Import the density file SRR1944925.
+Import the density file SRR1944926.
+Import the density file SRR1944927.
+Import the density file SRR1944928.
+Import the density file SRR1944929.
+
+Step4: Calculate the codon decoding time.
+Row: 500, NM_001178846.3.
+Row: 1000, NM_001179555.1.
+Row: 1500, NM_001180269.1.
+Row: 2000, NM_001180949.1.
+Row: 2500, NM_001181675.1.
+Row: 3000, NM_001182422.1.
+Row: 3500, NM_001183098.2.
+Row: 4000, NM_001183791.3.
+Row: 4408, NM_001431138.1.
+
+Step5: Draw the codon decoding time plot.
+All done.
+
+2025-02-19 18:38:37

@@ -1,0 +1,26 @@
+2025-02-19 21:18:53
+Retrieve the RPFs with gene list.
+
+Step1: Checking the input Arguments.
+
+rpf         :  ../05.merge/RIBO_merged.txt
+output      :  RIBO
+list        :  ../../../1.reference/norm/gene.norm.txt
+min         :  150
+normal      :  True
+format      :  True
+split       :  False
+Step2: Retrieve the gene RPFs.
+
+Import the density file SRR1944912.
+Import the density file SRR1944913.
+Import the density file SRR1944914.
+Import the density file SRR1944915.
+Import the density file SRR1944916.
+Import the density file SRR1944917.
+Step3: Format the RPFs table.
+
+Step4: Output the RPFs table.
+
+All done.
+2025-02-19 21:22:40

@@ -1,0 +1,14 @@
+2025-02-19 16:35:11
+Create the p-site offset for RNA-seq.
+
+Step1: Checking the input Arguments.
+
+output      :  SRR1944924
+min         :  25
+max         :  150
+exp_offset  :  12
+Step2: Output the offset table.
+
+2025-02-19 16:35:11
+All done.
+

@@ -1,0 +1,28 @@
+2025-02-19 16:38:19
+Draw the periodicity plot.
+
+Step1: Checking the input Arguments.
+
+rpf         :  ../05.merge/RNA_merged.txt
+output      :  RNA
+transcript  :  None
+min         :  30
+tis         :  0
+tts         :  0
+Step2: Import the RPFs file.
+
+Import the density file SRR1944924.
+Import the density file SRR1944925.
+Import the density file SRR1944926.
+Import the density file SRR1944927.
+Import the density file SRR1944928.
+Import the density file SRR1944929.
+Step3: Calculate the 3nt periodicity.
+
+Step4: Ouput the 3nt periodicity.
+
+Step5: Draw the 3nt periodicity plot.
+
+All done.
+
+2025-02-19 16:38:26

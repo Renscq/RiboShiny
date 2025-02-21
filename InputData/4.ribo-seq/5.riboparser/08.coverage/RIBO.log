@@ -1,0 +1,60 @@
+2025-02-19 18:30:21
+
+Draw the metagene coverage.
+
+Step1: Checking the input Arguments.
+transcript  :  ../../../1.reference/norm/gene.norm.txt
+rpf         :  ../05.merge/RIBO_merged.txt
+output      :  RIBO
+frame       :  all
+min         :  50
+bin         :  10,150,10
+normal      :  True
+thread      :  1
+outlier     :  True
+set         :  union
+heatmap     :  True
+barplot     :  False
+
+Step2: Import the RPFs file.
+Import the density file SRR1944912.
+Import the density file SRR1944913.
+Import the density file SRR1944914.
+Import the density file SRR1944915.
+Import the density file SRR1944916.
+Import the density file SRR1944917.
+
+Step3: Adjust mRNAs to the same dimension.
+Processing 5-UTR.
+The number of gene with 5-UTR 5021.
+Filter the outliers.
+Processing CDS.
+The number of gene with CDS 4858.
+Filter the outliers.
+Processing 3-UTR.
+The number of gene with 3-UTR 5021.
+Filter the outliers.
+
+Step5: Draw the line plot of metagene coverage.
+Draw SRR1944912 line plot.
+Draw SRR1944913 line plot.
+Draw SRR1944914 line plot.
+Draw SRR1944915 line plot.
+Draw SRR1944916 line plot.
+Draw SRR1944917 line plot.
+
+Step6: Draw the heatmap of metagene coverage.
+Draw SRR1944912 heatmap.
+Draw SRR1944913 heatmap.
+Draw SRR1944914 heatmap.
+Draw SRR1944915 heatmap.
+Draw SRR1944916 heatmap.
+Draw SRR1944917 heatmap.
+
+Step7: Draw the barplot of metagene coverage.
+
+Step8: Output the metagene coverage.
+
+All done.
+
+2025-02-19 18:33:29

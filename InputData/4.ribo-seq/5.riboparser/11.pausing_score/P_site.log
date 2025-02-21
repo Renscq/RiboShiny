@@ -1,0 +1,48 @@
+2025-02-19 18:34:45
+
+Calculate the relative codon pausing score.
+
+Step1: Checking the input Arguments.
+rpf         :  ../05.merge/RIBO_merged.txt
+list        :  ../../../1.reference/norm/gene.norm.txt
+output      :  P_site
+site        :  P
+frame       :  0
+background  :  0
+min         :  50
+tis         :  10
+tts         :  5
+normal      :  False
+scale       :  minmax
+stop        :  True
+figure      :  none
+all         :  False
+
+Step2: Import the RPFs file.
+Import the density file SRR1944912.
+Import the density file SRR1944913.
+Import the density file SRR1944914.
+Import the density file SRR1944915.
+Import the density file SRR1944916.
+Import the density file SRR1944917.
+
+Step3: Calculate the ribosome pausing score.
+Row: 500, NM_001178822.1.
+Row: 1000, NM_001179491.1.
+Row: 1500, NM_001180193.1.
+Row: 2000, NM_001180842.1.
+Row: 2500, NM_001181535.1.
+Row: 3000, NM_001182248.1.
+Row: 3500, NM_001182918.1.
+Row: 4000, NM_001183585.3.
+Row: 4500, NM_001184278.1.
+Row: 4606, YIR043C.
+
+Step4: Output the ribosome pausing score.
+
+Step5: Draw the codon pausing score.
+
+Step6: Do not draw figures.
+
+All done.
+2025-02-19 18:35:16

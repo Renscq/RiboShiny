@@ -1,0 +1,28 @@
+2025-02-19 18:33:31
+
+Draw the correlation of samples.
+
+
+Step1: Checking the input Arguments.
+
+rpf         :  ../05.merge/RIBO_merged.txt
+output      :  RIBO
+
+Step2: Import the RPFs file.
+
+Import the RPFs file SRR1944912.
+Import the RPFs file SRR1944913.
+Import the RPFs file SRR1944914.
+Import the RPFs file SRR1944915.
+Import the RPFs file SRR1944916.
+Import the RPFs file SRR1944917.
+
+Step3: calculate the RPM.
+
+
+Step4: Draw the correlation plot.
+
+
+All done.
+
+2025-02-19 18:33:56

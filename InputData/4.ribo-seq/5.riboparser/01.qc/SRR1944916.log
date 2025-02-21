@@ -1,0 +1,34 @@
+2025-02-19 17:38:44
+Check the RPFs mapping condition.
+
+Step1: Checking the input Arguments.
+
+transcript  :  ../../../1.reference/norm/gene.norm.txt
+bam         :  ../../3.star/SRR1944916Aligned.toTranscriptome.out.bam
+output      :  SRR1944916
+thread      :  12
+tag         :  0
+align       :  star
+reverse     :  False
+longest     :  False
+saturation  :  True
+Step2: Import the transcripts annotation.
+
+Step3: Import the bam file.
+
+import file: ../../3.star/SRR1944916Aligned.toTranscriptome.out.bam.
+
+index file: ../../3.star/SRR1944916Aligned.toTranscriptome.out.bam.bai doesn't exist, create the index file.
+
+Step4: Sort and index the bam file.
+
+Step5: Detect the type of sequence profile.
+
+SRR1944916.temp.sorted.bam is detected to be monosome-seq.
+
+Step6: Summary the length distribution of reads aligned to mRNA.
+
+Step7: Check the RPFs saturation.
+
+All done.
+2025-02-19 17:42:11

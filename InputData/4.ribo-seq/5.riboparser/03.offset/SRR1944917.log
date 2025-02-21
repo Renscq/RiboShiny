@@ -1,0 +1,30 @@
+2025-02-19 18:24:20
+Detect the p-site offset.
+
+Step1: Checking the input Arguments.
+
+transcript  :  ../../../1.reference/norm/gene.norm.txt
+bam         :  ../01.qc/SRR1944917.bam
+output      :  SRR1944917
+mode        :  SSCBM
+align       :  both
+longest     :  False
+min         :  25
+max         :  33
+exp_peak    :  30
+shift       :  2
+silence     :  True
+detail      :  True
+Step2: Import the transcripts annotation.
+
+Step3: Import the bam file.
+
+import file: ../01.qc/SRR1944917.bam.
+
+Step4: Detect the SSCBM offset of sequence profile.
+
+Step5: Detect the RSBM offset of sequence profile.
+
+2025-02-19 18:25:20
+All done.
+
