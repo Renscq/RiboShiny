@@ -206,9 +206,9 @@ if (!require("UpSetR"))
 # packages from BiocManager
 if (!require("Biostrings"))
   BiocManager::install("Biostrings");
-if (!require("coRdon")) 
+if (!require("coRdon"))
   BiocManager::install("coRdon");
-if (!require("ShortRead")) 
+if (!require("ShortRead"))
   BiocManager::install("ShortRead");
 if (!require("DESeq2"))
   BiocManager::install("DESeq2");
@@ -216,10 +216,6 @@ if (!require("edgeR"))
   BiocManager::install("edgeR");
 if (!require("RUVSeq"))
   BiocManager::install("RUVSeq");
-if (!require("GOSE"))
-  BiocManager::install("GOSE");
-if (!require("ReactomePA"))
-  BiocManager::install("ReactomePA");
 if (!require("clusterProfiler"))
   BiocManager::install("clusterProfiler");
 if (!require("AnnotationDbi"))
