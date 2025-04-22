@@ -227,10 +227,6 @@ if (!require("edgeR"))
   BiocManager::install("edgeR");
 if (!require("RUVSeq"))
   BiocManager::install("RUVSeq");
-if (!require("GOSE"))
-  BiocManager::install("GOSE");
-if (!require("ReactomePA"))
-  BiocManager::install("ReactomePA");
 if (!require("clusterProfiler"))
   BiocManager::install("clusterProfiler");
 if (!require("AnnotationDbi"))
