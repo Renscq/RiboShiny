@@ -112,7 +112,7 @@ We present RiboShiny, a comprehensive framework designed to streamline the analy
 
 For users who prefer not to install the software locally, we provide a web-based version accessible through the link below. Please note that the current address is a temporary IP address, and a dedicated domain name will be assigned in the future.
 
-<http://82.157.181.64:3838/RiboShiny/>
+<http://82.157.181.64:3838/RiboShiny/> (Under update)
 
 
 - local install
